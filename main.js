@@ -9,10 +9,11 @@ let h5 =  document.querySelector("h5")
 let h52 = document.getElementById("second")
 let cards = document.querySelector(".card")
 let body = document.querySelector("body")
-body.style.backgroundImage = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzhoIDdKgFY7puSbJSHuaFwbk1jE5q0tNf3g&usqp=CAU)"
+body.style.backgroundImage = "url(https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHx3ZWF0aGVyJTIwYXBwfGVufDB8fDB8fHww)"
 body.style.backgroundPosition = "start"
 body.style.backgroundRepeat = "no-repeat"
 body.style.backgroundSize = "cover"
+body.style.objectFit = "cover"
 
 
 
